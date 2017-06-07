@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+    
+    <entry>
+      <title><![CDATA[Questions and Answers]]></title>
+      <url>/2017/06/06/qna-cn/</url>
+      <content type="html"><![CDATA[<span class="label label-danger">Q</span> <code>SISE FE LAB</code>是什么意思？<br><br><span class="label label-success">A</span> <code>SISE FE LAB</code>是<code>SISE Front-End Lab</code>的缩写，是以前端工程化技术和大数据技术为主攻方向的研究室。<br><br><span class="label label-danger">Q</span> 为什么要使用Github协作？<br><br><span class="label label-success">A</span> 软件工程（信息工程）不完全等于计算机技术，不仅仅要学习和研究如何写代码，还涉及到团队协作工具的使用，这是它的工程性质，而很多高校对工程这一主题不重视，<code>版本控制工具</code>,<code>团队协作方法论</code>,<code>测试驱动开发理论</code>都是软件工程的重要支柱，应当予以重视。<br><br><a id="more"></a>
+<p><span class="label label-danger">Q</span> 为什么要做一个团队主页？</p>
+<p><span class="label label-success">A</span> 国内许多的前端团队都有自己的主页，这是效仿它们的一种做法。</p>
+<p><span class="label label-danger">Q</span> 能给出几个前端团队主页吗？</p>
+<p><span class="label label-success">A</span> 这里给出几个有名的FE团队主页：</p>
+<ul>
+<li>百度 <a href="http://efe.baidu.com/" target="_blank" rel="external">EFE 团队主页</a>；</li>
+<li>阿里 <a href="http://www.aliued.com/" target="_blank" rel="external">UED 团队主页</a>；</li>
+<li>腾讯 <a href="http://www.alloyteam.com/" target="_blank" rel="external">AlloyTeam 团队主页</a></li>
+</ul>
+<p><span class="label label-danger">Q</span> 这个页面是用什么写的？</p>
+<p><span class="label label-success">A</span> 是用目前最流行的技术文档语言<code>markdown</code>写的，这种语言相当于技术圈的word.</p>
+<p><span class="label label-danger">Q</span> 我也可以部署这样一个网站吗 ？</p>
+<p><span class="label label-success">A</span> 当然可以，只要有github账号，利用github提供的pages服务都可以部署一个属于自己的网站，能够让全世界的人访问到。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> Docs </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Q&amp;A </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Lab入门指南]]></title>
+      <url>/2017/06/02/hello-world/</url>
+      <content type="html"><![CDATA[<p>Welcome to Join <code>SISE FE Lab</code>.</p>
+<p>许多技术站点都喜欢用<code>xxx入门指南</code>这样的东西来传教，但实际上这里并不是什么入门指南，只能算是一个方向性的规划，这两个方向分别是前端工程方向和后端工程方向。</p>
+<p>具体而言，用现在技术圈的流行语来说，前端方向对应于<code>全栈工程师</code>、<code>大前端工程师</code>这样的职业领域，这个技术领域，在国内几乎很多高校尚属空白，包括我们学校。为什么会产生这样的现象，这里面的原因很复杂，只有深入了解了这里面的内部知识，可能才能理解。起初，我也没有打算把<code>前端工程</code>作为一个研究方向进行专门的研究。但是看到国内几乎所有的互联网企业都面临高级前端稀缺的现象，很多后端想转型成为前端工程师或全栈工程师，但却无从下手，看到这些现象，我决心建立一个专门研究前端的方向。</p>
+<p>另一个方向是后端工程方向，这个方向很大，涉及的范围很广，但我在这里重点探讨2个领域，一个是<code>大数据相关</code>,一个是<code>分布式缓存相关</code>，这个方向是我们系目前重点发展的技术领域，<code>大数据与人工智能</code>也是继<code>全栈</code>、<code>微服务</code>、<code>DevOps</code>之后又一个技术热点，在这个专业方向当中，Python语言被称为大数据与人工智能的第一语言（JavaScript被称为Web全栈领域的第一语言），如果有志于从事这个领域的研究和开发，学好Python会很有优势，许多人工智能、机器学习的算法库都是基于python开发的，如果你想做一个网络爬虫应用，那你一定不能错过python。</p>
+<a id="more"></a>
+<hr>
+<h4 id="研究计划-——-前端工程方向"><a href="#研究计划-——-前端工程方向" class="headerlink" title="研究计划 —— 前端工程方向"></a>研究计划 —— <code>前端工程</code>方向</h4><hr>
+<h5 id="Step-1-相关工具学习使用"><a href="#Step-1-相关工具学习使用" class="headerlink" title="Step 1: 相关工具学习使用"></a>Step 1: 相关工具学习使用</h5><blockquote>
+<ul>
+<li>git</li>
+<li>node.js</li>
+<li>python</li>
+</ul>
+</blockquote>
+<p class="text-info">目标: 能够基于Github进行团队合作开发 </p>
+<h5 id="Step-2-站点框架技术研究"><a href="#Step-2-站点框架技术研究" class="headerlink" title="Step 2: 站点框架技术研究"></a>Step 2: 站点框架技术研究</h5><blockquote>
+<ul>
+<li>hexo</li>
+<li>github</li>
+</ul>
+</blockquote>
+<p class="text-info">目标: 能够使用相关技术建立个人站点</p>
+<h5 id="Step-3-前端组件化技术研究"><a href="#Step-3-前端组件化技术研究" class="headerlink" title="Step 3: 前端组件化技术研究"></a>Step 3: 前端组件化技术研究</h5><blockquote>
+<ul>
+<li>react</li>
+<li>vue</li>
+</ul>
+</blockquote>
+<p class="text-info">目标: 能够使用流行的组件化技术重构和改进站点</p>
+<h5 id="Step-4-深入学习JavaScript"><a href="#Step-4-深入学习JavaScript" class="headerlink" title="Step 4: 深入学习JavaScript"></a>Step 4: 深入学习JavaScript</h5><blockquote>
+<ul>
+<li>你所不知道的JavaScript</li>
+<li>node.js</li>
+</ul>
+</blockquote>
+<p class="text-info">目标: 全面理解基于JS的技术体系，能够使用node.js进行网络开发、多线程开发、数据库开发</p>
+<h5 id="Step-5-Node-js与新技术探索"><a href="#Step-5-Node-js与新技术探索" class="headerlink" title="Step 5: Node.js与新技术探索"></a>Step 5: Node.js与新技术探索</h5><blockquote>
+<ul>
+<li>基于node.js的微服务</li>
+<li>基于node.js的区块链技术</li>
+<li>基于node.js的游戏服务器</li>
+</ul>
+</blockquote>
+<p class="text-info">目标: 能够掌握基于JS的前沿技术</p>
+<hr>
+<h4 id="研究计划-——-后端工程方向"><a href="#研究计划-——-后端工程方向" class="headerlink" title="研究计划 —— 后端工程方向"></a>研究计划 —— <code>后端工程</code>方向</h4><hr>
+<h5 id="Step-1-相关工具学习使用-1"><a href="#Step-1-相关工具学习使用-1" class="headerlink" title="Step 1: 相关工具学习使用"></a>Step 1: 相关工具学习使用</h5><blockquote>
+<ul>
+<li>git</li>
+<li>node.js</li>
+<li>python</li>
+</ul>
+</blockquote>
+<p class="text-info">目标: 能够基于Github进行团队合作开发 </p>
+<h5 id="Step-2-编程语言学习"><a href="#Step-2-编程语言学习" class="headerlink" title="Step 2: 编程语言学习"></a>Step 2: 编程语言学习</h5><blockquote>
+<ul>
+<li>$ 笨方法学Python</li>
+</ul>
+</blockquote>
+<p class="text-info">目标: 能够了解Python的基本语法、面向对象</p>
+<h5 id="Step-3-应用技术学习"><a href="#Step-3-应用技术学习" class="headerlink" title="Step 3: 应用技术学习"></a>Step 3: 应用技术学习</h5><blockquote>
+<ul>
+<li>$ Python核心编程</li>
+</ul>
+</blockquote>
+<p class="text-info">目标: 能够使用Python进行网络开发、多线程开发、数据库开发</p>
+<h5 id="Step-4-后端框架学习"><a href="#Step-4-后端框架学习" class="headerlink" title="Step 4: 后端框架学习"></a>Step 4: 后端框架学习</h5><blockquote>
+<ul>
+<li>Django</li>
+<li>Flask</li>
+<li>Twisted</li>
+</ul>
+</blockquote>
+<p class="text-info">目标: 掌握一种或多种基于Python的Web开发框架，能够进行Web开发</p>
+<h5 id="Step-5-方向1-——-分布式缓存技术"><a href="#Step-5-方向1-——-分布式缓存技术" class="headerlink" title="Step 5: 方向1 —— 分布式缓存技术"></a>Step 5: 方向1 —— 分布式缓存技术</h5><blockquote>
+<ul>
+<li>redis</li>
+<li>mongodb</li>
+<li>memcache</li>
+</ul>
+</blockquote>
+<p class="text-info">目标: 掌握分布式缓存的使用场景，能够进行复杂的应用开发</p>
+<h5 id="Step-5-方向2-——-大数据与人工智能"><a href="#Step-5-方向2-——-大数据与人工智能" class="headerlink" title="Step 5: 方向2 —— 大数据与人工智能"></a>Step 5: 方向2 —— 大数据与人工智能</h5><blockquote>
+<ul>
+<li>NumPy</li>
+<li>SciPy</li>
+<li>OpenStack</li>
+</ul>
+</blockquote>
+<p class="text-info">目标: 学习基于Python的数学计算、数据分析库、学习基于Python的云操作系统OpenStack</p>
+<hr>
+<div class="alert alert-info"><i class="fa fa-info"></i>  注：以上只是大致的计划，实际安排会比较灵活。在开始之前，希望你已经掌握了计算机的基本概念、基本的编程语言原理（C或者Java）、基本的网页设计原理。</div>
+]]></content>
+      
+        <categories>
+            
+            <category> Guide </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Guide </tag>
+            
+        </tags>
+        
+    </entry>
+    
+  
+  
+</search>
