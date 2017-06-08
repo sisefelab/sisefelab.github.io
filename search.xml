@@ -3,6 +3,75 @@
   
     
     <entry>
+      <title><![CDATA[github生存指南-1]]></title>
+      <url>/2017/06/07/git-1/</url>
+      <content type="html"><![CDATA[<p>在大多数软件项目中，尤其现代的软件开发当中，代码很难是由一个人独自完成的；即使代码可以由一个人完成，但在其完成以后，仍然存在着分享和改进的问题。团队协作尤其是代码级别的协作，看上去是一个<code>管理问题</code>或<code>沟通问题</code>，实际上是一个<code>技术问题</code>。</p>
+<p>以小组课程设计为例，在一个由6个人分工合作的课程设计当中，你们是如何做到代码层面的相互合作的呢？如果你们的代码模块互相影响，这个问题就更加复杂。</p>
+<h4 id="原始解决方案"><a href="#原始解决方案" class="headerlink" title="原始解决方案"></a>原始解决方案</h4><a id="more"></a>
+<p>一种原始的但是却又极为简单有效的方案是——<code>把自己的代码复制一份发给对方</code>。比如自己写好以后，拿U盘拷给其他人，或者利用微信或者qq发给其他人。这种方式在软件工程学生之间非常流行，或者说非常普遍。当你代码有问题的时候，可能首先也会想到把问题代码发一份给同学让他运行看一看改一改。</p>
+<p>由此可见，这种解决方案的特点是：<code>简单、直接、快速</code>。</p>
+<h4 id="拷贝方案的问题"><a href="#拷贝方案的问题" class="headerlink" title="拷贝方案的问题"></a>拷贝方案的问题</h4><p>尽管直接复制，简单粗暴，不需要额外学习新的技术。但是它的问题还是很多的，再举个例子，你开发的软件是一个比较复杂的系统，当你把你的模块（<code>第一份项目代码</code>）发给你同学以后，你又修改了代码（<code>第二份项目代码</code>），或者说你又添加了功能；而与此同时，你的同学也添加了他的代码（<code>第三份项目代码</code>），这个时候如何把第二份项目代码和第三份项目代码合并，就成了问题。</p>
+<p>以上还只是2个人的团队，如果是很多人在一起团队合作，你的代码要发给很多个人，其他人都要在你的基础上加代码的时候，情况就更加复杂。</p>
+<h4 id="版本控制系统"><a href="#版本控制系统" class="headerlink" title="版本控制系统"></a>版本控制系统</h4><p>上述问题实际上是经典的版本控制问题。版本控制是软件工程的重要问题，但软件工程专业大多都把重点放在怎样写代码上，对如何解决这类问题关注的较少，实际上，<code>代码编辑器的使用</code>,<code>团队合作工具的使用</code>这些看似和写代码关系不大的东西正在潜移默化的影响着一个人的技术水平和对软件工程的认知。</p>
+<p>为了解决上述问题，版本控制系统应运而生。引入版本控制系统可以很好的解决上述问题。比较经典的版本控制系统是大名鼎鼎的<code>SVN</code>，以及现在最为流行的分布式版本控制系统<code>Git</code>。</p>
+<h4 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h4><p>Git是目前最为流行的分布式版本控制系统。我们使用的Github就是基于Git建立的主要用于存放开源项目和进行代码分享与协作的网站。使用Git可以从支持Git的系统中拉取代码、提交代码、进行版本控制和代码协作。即使是多人团队，也能很好的进行代码共享、代码提交、代码审核。这也是我为什么要在<code>Github</code>上建立团队的原因。</p>
+<p><code>Github</code>是目前世界最大的代码托管网站，全世界众多顶尖的开源项目代码托管在此，玩转了Github不仅有利于提升自己的代码协作水平，也有利于和世界程序员的交流协作。当然了由于Github服务器在国外，速度可能会有些慢，其实国内也有一些基于<code>Git</code>的网站，比较有名的是<a href="https://coding.net/" target="_blank" rel="external">Coding</a>，速度很快，但是既然要用<code>Git</code>,不用一用大名鼎鼎的<code>Github</code>未免有些遗憾，更何况大部分程序员都在用它。</p>
+<p>所以就算是慢一点，还是用<code>Github</code>吧。</p>
+<h4 id="下载Git软件"><a href="#下载Git软件" class="headerlink" title="下载Git软件"></a>下载Git软件</h4><p>说了一大堆废话，下面开始正题。我们的目标是能够在Github上下载我新建的一个<a href="https://github.com/sisefelab/git-practice" target="_blank" rel="external">项目</a>的代码，并能够提交代码到该项目。</p>
+<p>使用Git从下载Git工具开始。下载地址：</p>
+<p><a href="https://git-scm.com/download/win" target="_blank" rel="external">官方链接</a></p>
+<p><a href="https://github.com/waylau/git-for-win" target="_blank" rel="external">国内加速链接</a></p>
+<p>请选择对应的版本下载并安装。注意安装时，应按下图勾选：</p>
+<p><img src="/images/git/git1.png" alt="图1"><br><img src="/images/git/git2.png" alt="图2"></p>
+<p>其余默认即可。</p>
+<h4 id="从Github代码仓库中下载代码"><a href="#从Github代码仓库中下载代码" class="headerlink" title="从Github代码仓库中下载代码"></a>从Github代码仓库中下载代码</h4><p>在Github中可以建立许多个代码仓库（<code>new repository</code>），在代码仓库中可以存放某个项目，代码仓库是项目组成员协作的基本单位。项目组成员围绕这某一个项目进行协作。</p>
+<p>现在，我已经新建了一个代码仓库，名字叫<code>git-practice</code>，并上传了代码。</p>
+<p><a href="https://github.com/sisefelab/git-practice" target="_blank" rel="external">代码仓库</a></p>
+<p>那么，如何从这个仓库中下载代码呢？有三种方式。</p>
+<ol>
+<li>图形化的方式，在网页上点download（不推荐，不使用）</li>
+<li>基于HTTP的命令（本次使用）</li>
+<li>基于SSH的命令（主流方式，下次使用）</li>
+</ol>
+<p>现在打开<code>git bash</code>，然后输入如下命令:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">mkdir github</div><div class="line"><span class="built_in">cd</span> github</div></pre></td></tr></table></figure>
+<p><img src="/images/git/git3.png" alt="图3"></p>
+<p>现在输入下列命令，正式拉取代码：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git <span class="built_in">clone</span> https://github.com/sisefelab/git-practice.git</div></pre></td></tr></table></figure>
+<p><code>git clone</code>表示从后面的仓库地址复制代码到本地，这是一个git命令，需要记住，至于后面这个地址,你可以从github对应的<a href="https://github.com/sisefelab/git-practice" target="_blank" rel="external">项目</a>页面上看到，如下图：</p>
+<p><img src="/images/git/git4.png" alt="图4">，</p>
+<div class="alert alert-info"><i class="fa fa-info"></i>  注意：请使用http开头的地址，不要用git开头的地址，否则后面会出错。</div>
+<p>等待片刻，下载成功，如下图：</p>
+<p><img src="/images/git/git5.png" alt="图5">.</p>
+<h4 id="将修改后的代码上传到原仓库"><a href="#将修改后的代码上传到原仓库" class="headerlink" title="将修改后的代码上传到原仓库"></a>将修改后的代码上传到原仓库</h4><p>现在修改代码。首先在文档当中找到对应的Github目录，</p>
+<p><img src="/images/git/git6.png" alt="图6">，</p>
+<p>然后用任意的代码编辑工具把这个目录打开，然后会看到一个文件，</p>
+<p>按照文件上的要求把自己的名字加到最后一行并保存。</p>
+<p><img src="/images/git/git7.png" alt="图7">，</p>
+<p>回到刚才的命令行界面，输入如下命令（一行代表一个命令）:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> git-practice/      <span class="comment"># 进入到git-practice目录</span></div><div class="line">git config --global user.email <span class="string">"xxx@qq.com"</span> <span class="comment"># 添加你的邮箱，注意修改邮箱</span></div><div class="line">git config --global user.name <span class="string">"xxx"</span> <span class="comment"># 添加你的提交姓名，注意修改名字</span></div><div class="line">git add .  <span class="comment"># 将你修改的所有文件加入git</span></div><div class="line">git commit -m <span class="string">'add my name'</span> <span class="comment"># 填写提交注释并提交</span></div><div class="line">git push -u origin master <span class="comment"># 将代码推送到网上（Github）</span></div></pre></td></tr></table></figure>
+<p>最后一个命令输入完成以后，会弹出对话框，让你输入你的Github账号和密码，输入完成以后，你的代码就成功的提交到了Github上。</p>
+<h4 id="打开项目网站检查一下吧"><a href="#打开项目网站检查一下吧" class="headerlink" title="打开项目网站检查一下吧"></a>打开项目网站检查一下吧</h4><p><a href="https://github.com/sisefelab/git-practice" target="_blank" rel="external">项目</a></p>
+<p>看一看你写的代码（虽然这里只是一行字），有没有加进去呢？</p>
+<p>任务完成~意不意外？开不开心？</p>
+<div class="alert alert-info"><i class="fa fa-info"></i>  恭喜你掌握了Git 1%的功能，继续加油哦~</div>]]></content>
+      
+        <categories>
+            
+            <category> Git </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Git </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Questions and Answers]]></title>
       <url>/2017/06/06/qna-cn/</url>
       <content type="html"><![CDATA[<span class="label label-danger">Q</span> <code>SISE FE LAB</code>是什么意思？<br><br><span class="label label-success">A</span> <code>SISE FE LAB</code>是<code>SISE Front-End Lab</code>的缩写，是以前端工程化技术和大数据技术为主攻方向的研究室。<br><br><span class="label label-danger">Q</span> 为什么要使用Github协作？<br><br><span class="label label-success">A</span> 软件工程（信息工程）不完全等于计算机技术，不仅仅要学习和研究如何写代码，还涉及到团队协作工具的使用，这是它的工程性质，而很多高校对工程这一主题不重视，<code>版本控制工具</code>,<code>团队协作方法论</code>,<code>测试驱动开发理论</code>都是软件工程的重要支柱，应当予以重视。<br><br><a id="more"></a>
